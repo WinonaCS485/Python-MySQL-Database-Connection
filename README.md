@@ -6,3 +6,5 @@ If you don't have PyMySQL already installed (Python gives an error "No Module Py
 Try the following command:
 
 pip3 install pymysql
+
+If you're in Thonny, just go into Tools->Packages and search for it, then install it.
