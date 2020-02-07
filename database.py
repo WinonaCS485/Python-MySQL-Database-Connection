@@ -19,7 +19,11 @@ try:
         # get the results
         for result in cursor:
             print (result)
-        
+            print ("Student ID: " + str(result['StudentID'])) # convert the integer ID into a string before concatenating
+            print ("First Name: " + result['FirstName'])
+            print ("Last Name: " + result['LastName'])
+            print ("Age: " + str(result['Age'])) # convert the integer Age into a string before concatenating
+            print ("")
       
         # If you INSERT, UPDATE or CREATE, the connection is not autocommit by default.
         # So you must commit to save your changes. 
